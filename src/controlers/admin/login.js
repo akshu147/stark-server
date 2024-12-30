@@ -41,4 +41,11 @@ const AdminLogin = async (req, res) => {
     }
 };
 
-module.exports = { ragisteradmin, AdminLogin }
+
+const rufdata = (req, res)=> {
+    res.send("i love you")
+}
+
+
+
+module.exports = { ragisteradmin, AdminLogin, rufdata }
